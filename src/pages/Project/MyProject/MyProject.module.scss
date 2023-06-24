@@ -1,0 +1,183 @@
+
+.my-project-3{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.3s ease-in-out;
+    --width-project-block : 31%;
+    gap: calc((100% - (31% * 3)) / 2);
+    
+   .my-project-block{
+    width: var( --width-project-block);
+    margin-bottom: 20px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 250px;
+
+        
+    }
+   }
+   
+
+   .info-hidden{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background-color: #2f2f39;
+    height: 100%;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+    padding-top: 2.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .info-hidden__title{
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 600;
+    }
+    .info-hidden__desc{
+        font-size: 1.2rem;
+        color: var(--gray-color);
+        margin: 2rem 0;
+    }
+        .info-hidden__source{
+            a{
+
+                color: white;
+            }
+        }
+    .info-hidden__link{
+        a{
+
+            color: white;
+        }
+    }
+
+    .action{
+        display: flex;
+        justify-content: space-between;
+    }
+    .remove{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .edit{
+        padding: 5px 10px;
+        background-color: var(--color-global);
+        font-size: 1.2rem;
+        color: black;
+        &:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+   }
+   .active-info-hidden{
+    transform: translateY(0%);
+    transition: all 0.3s ease-in-out;
+
+   }
+   
+}
+.form-project{
+    display: flex;
+    flex-direction: column;
+    .submit-form{
+        color: white;
+    }
+   
+}
+
+.my-project-2{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.3s ease-in-out;
+    --width-project-block : 45%;
+    gap: calc((100% - (45% * 2)));
+    
+   .my-project-block{
+    width: var( --width-project-block);
+    margin-bottom: 20px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 250px;
+
+        
+    }
+   }
+   
+
+   .info-hidden{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background-color: #2f2f39;
+    height: 100%;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+    padding-top: 2.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .info-hidden__title{
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 600;
+    }
+    .info-hidden__desc{
+        font-size: 1.2rem;
+        color: var(--gray-color);
+        margin: 2rem 0;
+    }
+        .info-hidden__source{
+            a{
+
+                color: white;
+            }
+        }
+    .info-hidden__link{
+        a{
+
+            color: white;
+        }
+    }
+
+
+    .remove{
+        &:hover{
+            cursor: pointer;
+           
+        }
+    }
+   }
+   .active-info-hidden{
+    transform: translateY(0%);
+    transition: all 0.3s ease-in-out;
+
+   }
+  
+}
+.form-project{
+    display: flex;
+    flex-direction: column;
+    .submit-form{
+        color: white;
+    }
+   
+}

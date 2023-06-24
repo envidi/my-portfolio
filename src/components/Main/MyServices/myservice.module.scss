@@ -1,0 +1,50 @@
+.my-services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5%;
+}
+
+.myservices-block{
+    width: 31%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    background-color: #2c2c37;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transform: translateY(-10%);
+        transition: all 0.3s ease-in-out;
+    }
+    .name-services{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .desc-services{
+        font-size: 1.2rem;
+        margin: 15px 0px;
+        color: var( --gray-color);
+    }
+    .order-now{
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        color: var(--color-global);
+        margin: 5px 0px;
+        .icon-oredernow{
+            i{
+                transition: all 0.3s ease-in-out;
+
+            }
+          
+        }
+        &:hover i {
+            transform: translateX(20%);
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

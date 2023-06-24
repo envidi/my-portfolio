@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1%;
+}
+.contain-sidebar-main{
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.contain-main-nav{
+    display: flex;
+    transform: translateX(23%);
+    transition: all .5s ease-in-out;
+    width: 100%;
+}
+.active-contain-main-nav{
+    transform: translateX(10%);
+    transition: all .5s ease-in-out;
+}

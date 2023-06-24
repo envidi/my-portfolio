@@ -1,0 +1,11 @@
+.container{
+    width: calc(100% - 18%);
+    // background-color: #20202a;
+    height: 100%;
+    position: relative;
+    left: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
