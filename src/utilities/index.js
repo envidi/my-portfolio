@@ -209,6 +209,20 @@ const myProject =[
     "source": "https://github.com/envidi/lamboWeb.git",
     "link": " https://envidi.github.io/lamboWeb/",
     "id": 2
+  },
+  {
+    "name": "The Bands",
+    "desc": "We love music",
+    "startDate": "22/08/2021",
+    "time": "1week",
+    "skills": "HTML,CSS,JS",
+    "role": "fullstack",
+    "image": [
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692527817/Screenshot_241_gqf75j.png"
+    ],
+    "source": "https://github.com/envidi/The-Bands.git",
+    "link": "https://envidi.github.io/The-Bands/",
+    "id": 3
   }
 ]
 
