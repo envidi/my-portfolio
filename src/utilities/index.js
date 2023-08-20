@@ -181,19 +181,35 @@ const myServices = [
   },
 ];
 
-const myProject = [
-  {name: "Comfy store",
-   desc : "Lorem ipsum",
-   image : "../../../src/Image/comfy.png" ,
-   source : "https://github.com/envidi/lamboWeb",
-   link : "https://envidi.github.io/lamboWeb/"
+const myProject =[
+  {
+    "name": "Comfy store",
+    "desc": "COMFY Introduces New Store Format and Transforms them into Art Galleries",
+    "startDate": "07/05/2023",
+    "time": "4days",
+    "skills": "HTML,CSS,JS",
+    "role": "fullstack",
+    "image": [
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1687665363/portfolio/u2elt9j5kv3uhbuntwrw.png"
+    ],
+    "source": "https://github.com/envidi/Comfy-store.git",
+    "link": " https://envidi.github.io/Comfy-store/",
+    "id": 1
   },
-  {name: "Lambo Clone",
-  desc : "Lorem ipsum",
-  image : "../../../src/Image/lambo.png" ,
-  source : "https://github.com/envidi/lamboWeb",
-  link : "https://envidi.github.io/lamboWeb/"
- },
+  {
+    "name": "Lamboghini Web",
+    "desc": "LAMBORGHINI WORLD",
+    "startDate": "01/04/2022",
+    "time": "1months",
+    "skills": "HTML,CSS,JS",
+    "role": "fullstack",
+    "image": [
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1687665546/portfolio/kkoytcojle3aozfw6pd5.png"
+    ],
+    "source": "https://github.com/envidi/lamboWeb.git",
+    "link": " https://envidi.github.io/lamboWeb/",
+    "id": 2
+  }
 ]
 
 const uploadFileCloudinary =async (files)=>{

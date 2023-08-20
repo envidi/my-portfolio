@@ -28,12 +28,12 @@ const MyProject =(column)=>{
     
     const [data,setData] = useState(myProject);
     
-    useEffect(()=>{
+    // useEffect(()=>{
         
-        fetchData()
+    //     fetchData()
                   
      
-    },[])
+    // },[])
 
     useEffect(()=>{
         const infoHidden = document.querySelectorAll(`.${cs("info-hidden")}`);
