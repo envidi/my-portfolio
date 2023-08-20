@@ -13,7 +13,7 @@ const productSchema = joi.object({
     link:joi.string().required().min(3).max(70),
     time:joi.string().required().min(3).max(30),
     startDate:joi.string().required(),
-    image:joi.string().required().min(3).max(70),   
+    image:joi.required(),   
     skills:joi.string().required().min(3).max(70),
     role:joi.string().required().min(3).max(70),
 
