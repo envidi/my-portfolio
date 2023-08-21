@@ -26,6 +26,10 @@ router.on("/project/:id",(data)=> render(function(){
    return Project(data,false)
 },app)
 );
+router.on("/projectDetail/:id",(data)=> render(function(){
+   return Project(data,true)
+},app)
+);
 router.on("/projectEdit/:id",(data)=> render(function(){
    return Project(data,true)
 },app)

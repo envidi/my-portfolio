@@ -10,6 +10,7 @@ import { useEffect } from "../../utilities";
 import styleNav from "../../components/Navbar/Navbar.module.scss";
 import stylesMain from "../../components/Main/main.module.scss";
 import ProjectEdit from "./ProjectEdit";
+import ProjectDetail from "./ProjectDetail/ProjectDetail";
 
 
 
@@ -54,7 +55,7 @@ const Project = (data, isEdit)=>{
         <div class=${cx('contain-sidebar-main')}>
             ${Sidebar()}
             <div class=${cx('contain-main-nav')}>
-            ${isEdit ? ProjectEdit(data) : MyProject(data)}
+            ${isEdit ? ProjectDetail(data) : MyProject(data)}
                 
                 ${Navbar("Portfolio")}
             </div>

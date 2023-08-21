@@ -103,8 +103,8 @@
     display: flex;
     flex-wrap: wrap;
     transition: all 0.3s ease-in-out;
-    --width-project-block : 45%;
-    gap: calc((100% - (45% * 2)));
+    --width-project-block : 48%;
+    gap: calc((100% - (48% * 2)));
     
    .my-project-block{
     width: var( --width-project-block);

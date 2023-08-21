@@ -6,11 +6,13 @@ import stylesProject from "./MyProject.module.scss";
 import { useEffect,myProject,useState } from "../../../utilities";
 // import postMethod from "./postMethod";
 import deleteMethod from "./deleteMethod";
+import styleDetail from "../ProjectDetail/ProjectDetail.module.scss";
 
 
 const cx = classNames.bind(styles);
 const cs = classNames.bind(stylesProject);
 const cv = classNames.bind(stylesService);
+const cd = classNames.bind(styleDetail)
 
 const MyProject =(column)=>{
     
@@ -93,17 +95,15 @@ const MyProject =(column)=>{
 
                 ${data.map((pro)=>{
                     const {id,name,image,desc,link,source} = pro;
+                    const [one, ...rest] = image
                     return `<div class=${cs("my-project-block")}>
-                    <img src=${image} />
+                    <img src=${one} />
                     <div class=${cs("info-hidden")}>
                         <div class=${cs('info-hidden__title')}>${name}</div>
                         <div class=${cs('info-hidden__desc')}>${desc}</div>
-                        <div class=${cs('info-hidden__source')}>
-                            <div class=${cs('source')} href=${source}>Source Code</div>
-                        </div>
-                        <div class=${cs('info-hidden__link')} >
-                            <div class=${cs('link')} href="${link}">Link Web </div>
-                        </div>
+                        <a href=${`/projectDetail/${id}`} class=${cd('projectDetail-read-more')}>
+                            READ MORE <i class="fa-solid fa-chevron-right"></i>
+                        </a>
                         
                     </div>
                 </div>`

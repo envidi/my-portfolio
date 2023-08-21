@@ -1,0 +1,192 @@
+.projectDetail-title{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.projectDetail-detail{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.projectDetail-title_title{
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+    font-size: 1.8rem;
+}
+.projectDetail-title_role{
+    padding: 5px 15px;
+    border-radius: 15px;
+    padding-top: 6px;
+    box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+    font-size: 1rem;
+    background-color: #20202a;
+    color: #646466;
+}
+.projectDetail-detail_description{
+    width: 50%;
+    background: var( --background-block );
+    padding: 30px;
+}
+.projectDetail-detail_description-title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.projectDetail-detail_desc{
+    color: var( --gray-color);
+    word-wrap: break-word;
+    font-size: 1.2rem;
+}
+.projectDetail-wrapper-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.projectDetail-detail_info{
+    width: 45%;
+    background: var( --background-block );
+    padding: 30px;
+    ul{
+        li{
+            list-style: none;
+            font-size: 1.3rem;
+            margin: 0.5rem 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+.info_value{
+    color :var( --gray-color);
+}
+.projectDetail-read-more{
+    margin-top: 2rem;
+    color: var(--color-global);
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    i{
+        transition: all 0.5s ease-in-out;
+    }
+    &:hover{
+        cursor: pointer;
+        i{
+            transform: translateX(50%);
+            transition: all 0.5s ease-in-out;
+            text-shadow:  0px 0px 2px #fcbd01;
+           
+        }
+    }
+}
+.projectDetail-banner{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    &::after{
+        content: "";
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 10;
+        transition: all 0.4s ease-in-out;
+    }
+    &:hover{
+        img{
+            transform: scale(1.1);
+            transition: all 0.4s ease-in-out;
+        }
+    }
+    &:hover::after{
+        background-color: rgba(0, 0, 0, 0.01);
+        transition: all 0.4s ease-in-out;
+    }
+    img{
+        transition: all 0.4s ease-in-out;
+        width: 100%;
+        box-shadow: inset 10px 10px 10px black;
+    }
+}
+.projectDetail-detail_repo-website{
+    margin-top: 20px;
+    width: 100%;
+    background: var( --background-block );
+    padding: 30px;
+}
+.projectDetail-detail_repo-website{
+    ul {
+        li{
+            list-style: none;
+            font-size: 1.3rem;
+            margin: 1rem 0;
+            display: flex;
+            gap: 1.5rem;
+            div{
+                &:nth-child(2){
+                    color: var(--color-global);
+                    &:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.projectDetail-result{
+    display: flex;
+    justify-content: space-between;
+    div{
+        position: relative;
+        overflow: hidden;
+        width: 48%;
+        display: flex;
+        &::after{
+            content: "";
+            left: 0;
+            top: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            transition: all 0.4s ease-in-out;
+        }
+        &:hover{
+            img{
+                transform: scale(1.1);
+                transition: all 0.4s ease-in-out;
+            }
+        }
+        &:hover::after{
+            background-color: rgba(0, 0, 0, 0.01);
+            transition: all 0.4s ease-in-out;
+        }
+        img{
+            transition: all 0.4s ease-in-out;
+            width: 100%;
+            box-shadow: inset 10px 10px 10px black;
+        }
+    }
+  
+}
+.banner{
+    background-image:linear-gradient(90deg, rgba(45, 45, 58, 0.9) 15%, rgba(45, 45, 58, 0.7) 50%, rgba(43, 43, 53, 0.7) 100%),url(https://elanta.app/nazar/arter-demo/img/bg.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position:50% 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 42px 45px;
+    padding-bottom: 55px;
+    align-items: center;
+    position: relative;
+    .hash-tag{
+        color: white;
+        font-family: "Courier Prime", monospace;
+        margin-top: 1rem;
+    }
+}

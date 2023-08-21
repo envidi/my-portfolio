@@ -190,7 +190,9 @@ const myProject =[
     "skills": "HTML,CSS,JS",
     "role": "fullstack",
     "image": [
-      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1687665363/portfolio/u2elt9j5kv3uhbuntwrw.png"
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692609518/Screenshot_203_bvmh71.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692607834/Screenshot_245_mwgc7a.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692607833/Screenshot_244_l0xkkz.png"
     ],
     "source": "https://github.com/envidi/Comfy-store.git",
     "link": " https://envidi.github.io/Comfy-store/",
@@ -198,13 +200,15 @@ const myProject =[
   },
   {
     "name": "Lamboghini Web",
-    "desc": "LAMBORGHINI WORLD",
+    "desc": "Your doorway to unparalleled supercars, embodying luxury, innovation, and speed in one iconic brand.",
     "startDate": "01/04/2022",
     "time": "1months",
     "skills": "HTML,CSS,JS",
     "role": "fullstack",
     "image": [
-      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1687665546/portfolio/kkoytcojle3aozfw6pd5.png"
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1687665546/portfolio/kkoytcojle3aozfw6pd5.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692607832/Screenshot_246_y3hc6h.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692607832/Screenshot_248_tzi34j.png"
     ],
     "source": "https://github.com/envidi/lamboWeb.git",
     "link": " https://envidi.github.io/lamboWeb/",
@@ -212,17 +216,51 @@ const myProject =[
   },
   {
     "name": "The Bands",
-    "desc": "We love music",
+    "desc": "Your magical music world, where awesome bands from all over the world play their coolest tunes just for you! 🎶🎤",
     "startDate": "22/08/2021",
     "time": "1week",
     "skills": "HTML,CSS,JS",
     "role": "fullstack",
     "image": [
-      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692527817/Screenshot_241_gqf75j.png"
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692609640/Screenshot_241_nrorpy.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692607832/Screenshot_250_gbbdxw.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692607832/Screenshot_249_vxiuwb.png"
     ],
     "source": "https://github.com/envidi/The-Bands.git",
     "link": "https://envidi.github.io/The-Bands/",
     "id": 3
+  },
+  {
+    "name": "Cocktail Web",
+    "desc": "Welcome to CocktailWeb, your go-to destination for all things cocktail-related. Discover an array of curated recipes.",
+    "startDate": "15/10/2022",
+    "time": "3 days",
+    "skills": "HTML,CSS,JS",
+    "role": "fullstack",
+    "image": [
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692612813/Screenshot_254_bsjum5.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692612816/Screenshot_252_e4ccl9.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692612811/Screenshot_253_yxoffk.png"
+    ],
+    "source": "https://github.com/envidi/Cocktail-web.git",
+    "link": "https://envidi.github.io/Cocktail-web/",
+    "id": 4
+  },  
+  {
+    "name": "Digital-O-Clock",
+    "desc": " Your digital buddy that shows the time in numbers, just like magic! 🕒✨.",
+    "startDate": "5/9/2021",
+    "time": "2 days",
+    "skills": "HTML,CSS,JS",
+    "role": "fullstack",
+    "image": [
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692615959/Screenshot_255_w58qug.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692615964/Screenshot_256_imld4v.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692615959/Screenshot_255_w58qug.png"
+    ],
+    "source": "https://github.com/envidi/Digital-O-clock.git",
+    "link": "https://envidi.github.io/Digital-O-clock/",
+    "id": 5
   }
 ]
 
