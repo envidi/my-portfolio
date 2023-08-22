@@ -15,7 +15,7 @@ function ProjectDetail({data}) {
     if(!projectSingle)return `<div>No product detail</div>`
 
     const {id , name , desc,startDate,time,skills,role,image,source,link} = projectSingle
-    const [one, two, three] = image
+    const [one, two, three,four,five] = image
     
     useEffect(()=>{
         const projectDetail = document.querySelector(`.${cd('projectDetail-detail_repo-website')}`)
@@ -92,6 +92,16 @@ function ProjectDetail({data}) {
         <img src="${three}"/>
         </div>
     </div>
+    ${
+        four && five ? `  <div style='margin-top : 20px' class=${cd('projectDetail-result')}>
+        <div>
+        <img src="${four}"/>
+        </div>
+        <div>
+        <img src="${five}"/>
+        </div>
+    </div>` : ''
+    }
     <div class=${cx('award')}>
             ${awards.map((award)=>{
                 const { name , number} = award

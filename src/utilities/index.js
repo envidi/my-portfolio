@@ -261,6 +261,24 @@ const myProject =[
     "source": "https://github.com/envidi/Digital-O-clock.git",
     "link": "https://envidi.github.io/Digital-O-clock/",
     "id": 5
+  },
+  {
+    "name": "Tea plus Web",
+    "desc": "Website selling products related to drinks such as milk tea and sugary drinks, using MVC model to design.",
+    "startDate": "10/3/2023",
+    "time": "1 month",
+    "skills": "HTML,CSS,JS,PHP",
+    "role": "FE and BE member of team",
+    "image": [
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692679253/Screenshot_258_uqi7ih.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692679254/Screenshot_259_p0s9lp.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692679254/Screenshot_261_wths9y.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692679253/Screenshot_260_xjtseg.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692679253/Screenshot_262_x3szn2.png"
+    ],
+    "source": "https://github.com/Namvv6523/Teaplus.git",
+    "link": "http://envidi2003.infinityfreeapp.com/",
+    "id": 6
   }
 ]
 
