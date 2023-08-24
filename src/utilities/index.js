@@ -302,6 +302,76 @@ const uploadFileCloudinary =async (files)=>{
   
   return urls
 }
+const historyData = {
+  education : [
+    {
+      id : 1,
+      name :"University of Toronto",
+      sub : "Student",
+      time : "jan 2018 - may 2020",
+      desc : "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri",
+      detail : "DIPLOME"
+    },
+    {
+      id : 2,
+      name : "Programming Course",
+      sub : "Student",
+      time : "jan 2016- apr 2017",
+      desc : "Coursework - Git, WordPress, Javascript, iOS, Android.",
+      detail : null
+    },
+    {
+      id : 3,
+      name : "Web developer courses",
+      sub : "Student",
+      time : "aug 2014 - oct 2015",
+      desc : "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript",
+      detail : "LICENCE"
+    },
+    {
+      id : 4,
+      name : "Academy of Art University",
+      sub : "Student",
+      time : "jan 2018 - may 2020",
+      desc : "Ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.",
+      detail : "CERTIFICATE"
+    },
+  ],
+  work_history : [
+    {
+      id : 1,
+      name :"Envato",
+      sub : "Template Author",
+      time : "jan 2018 - may 2020",
+      desc : "Created Professional WordPress Themes & Templates for Personal and Creative Websites.",
+      detail : null
+    },
+    {
+      id : 2,
+      name : "ABC Studio",
+      sub : "Front-End Developer",
+      time : "apr 2018 - aug 2019",
+      desc : "Collaborate with creative and development teams on the execution of ideas.",
+      detail : "RECOMMENDATION"
+    },
+    {
+      id : 3,
+      name : "Digital Web Studio",
+      sub : "Senior Developer",
+      time : "aug 2014 - oct 2015",
+      desc : "Optimize your website and apps performance using latest technology.",
+      detail : "RECOMMENDATION"
+    },
+    {
+      id : 4,
+      name : "SoftService company",
+      sub : "UI Developer",
+      time : "dec 2015 - jan 2016",
+      desc : "Collaborate with creative and development teams on the execution of ideas.",
+      detail : null
+    },
+  ]
+}
 
 export {
   render,
@@ -314,5 +384,6 @@ export {
   award,
   myServices,
   myProject,
-  uploadFileCloudinary
+  uploadFileCloudinary,
+  historyData
 };

@@ -93,7 +93,7 @@ function ProjectDetail({data}) {
         </div>
     </div>
     ${
-        four && five ? `  <div style='margin-top : 20px' class=${cd('projectDetail-result')}>
+        four && five ? `  <div style='margin-top : 30px' class=${cd('projectDetail-result')}>
         <div>
         <img src="${four}"/>
         </div>

@@ -4,6 +4,7 @@ import Project from "./pages/Project/Project";
 import Contact from "./pages/Contact/Contact.js";
 import Admin from "./pages/Admin/Admin";
 import Authen from "./pages/Authen";
+import History from "./pages/History";
 
 
 const isEdit = false
@@ -21,6 +22,9 @@ router.on("/admin/*", () => {}, {
 
 router.on("/", function(){
    return render(HomePage,app)
+});
+router.on("/history", function(){
+   return render(History,app)
 });
 router.on("/project/:id",(data)=> render(function(){
    return Project(data,false)

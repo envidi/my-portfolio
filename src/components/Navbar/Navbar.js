@@ -55,7 +55,7 @@ const classes = cx('block-language')
                             <li><a>2 column masonory</a></li>
                         </ul>
                     </li>
-                    <li><a>history</a></li>
+                    <li><a href="/history" >history</a></li>
                     <li><a href="/contact" >contact</a></li>
                     <li><a href="/admin">Admin</a></li>
                     <li><a href="/login">Login</a></li>
