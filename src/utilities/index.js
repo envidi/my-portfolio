@@ -279,6 +279,23 @@ const myProject =[
     "source": "https://github.com/Namvv6523/Teaplus.git",
     "link": "http://envidi2003.infinityfreeapp.com/",
     "id": 6
+  },
+   {
+    "name": "Travel Web",
+    "desc": "With HD video about travel to the beach and around the world.",
+    "startDate": "27/8/2023",
+    "time": "2 days",
+    "skills": "HTML,CSS,React,Responsive",
+    "role": "FE ",
+    "image": [
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1693230619/Screenshot_273_zhgarl.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1693230619/Screenshot_275_ahj8hr.png",
+      "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1693230619/Screenshot_276_iy12jb.png",
+   
+    ],
+    "source": "https://github.com/envidi/Travel-Web.git",
+    "link": "https://travel-web-lime.vercel.app/",
+    "id": 7
   }
 ]
 

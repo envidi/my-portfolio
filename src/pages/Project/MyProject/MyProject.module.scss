@@ -5,11 +5,11 @@
     display: flex;
     flex-wrap: wrap;
     transition: all 0.3s ease-in-out;
-    --width-project-block : 31%;
-    gap: calc((100% - (31% * 3)) / 2);
+    --width-project-block-1 : 32%;
+    gap: calc((100% - (32% * 3)) / 2);
     
    .my-project-block{
-    width: var( --width-project-block);
+    width: var( --width-project-block-1);
     margin-bottom: 20px;
     height: 250px;
     position: relative;
@@ -103,20 +103,20 @@
     display: flex;
     flex-wrap: wrap;
     transition: all 0.3s ease-in-out;
-    --width-project-block : 48%;
-    gap: calc((100% - (48% * 2)));
+    --width-project-block : 49%;
+    gap: calc((100% - (49% * 2)));
     
    .my-project-block{
     width: var( --width-project-block);
     margin-bottom: 20px;
-    height: 250px;
+    height: 200px;
     position: relative;
     overflow: hidden;
 
     img{
         width: 100%;
         object-fit: cover;
-        height: 250px;
+        height: 200px;
 
         
     }
