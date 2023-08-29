@@ -31,10 +31,7 @@ const Main =()=>{
                   
                     sliceWord(check)
                 },200)
-            }
-
-            
-
+            }            
             const sliceWord = (word)=>{                               
                 
                 if( counter > word.length  ){                            
@@ -60,47 +57,7 @@ const Main =()=>{
             } 
             startAnimation()
         }
-        animateText()
-            
-      
-    
-  
-
-    
-            // const phrases = [ "web interfaces.", "ios and android applications.", "design mocups.", "automation tools." ];
-            //     let currentPhraseIndex = 0;
-            // let currentPhrase = phrases[currentPhraseIndex];
-            // let currentPosition = 0;
-            // const delay = 100;
-            // let timerID;
-                
-            // const animateText = () => {
-            // timerID = setInterval(() => {
-            //     sliceWord(currentPhrase);
-            // }, 100);
-            // };
-            
-            // const sliceWord = (word) => {
-            // const check = splitWord(word);
-            
-            // if (currentPosition < check.length) {
-            //     const nextCharacter = check[currentPosition];
-            //     textAnimation.innerHTML += nextCharacter;
-            //     currentPosition++;
-            // } else {
-            //     clearInterval(timerID);
-            //     setTimeout(() => {
-            //         textAnimation.innerHTML = '';
-            //     currentPosition = 0;
-            //     currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
-            //     currentPhrase = phrases[currentPhraseIndex];
-            //     console.log(currentPhrase)
-            //     animateText();
-            //     }, 1500);
-            // }
-            // };
-            
-            // animateText();
+        animateText()                                 
     })
 
     return `<div class=${cx('main')}>

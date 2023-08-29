@@ -120,3 +120,39 @@
     font-size: 1.2rem;
     color: var( --gray-color);
 }
+
+@media screen and (max-width: 600px){
+    .main{
+        width: 100%;
+        padding: 30px 10px;
+        .banner{
+            align-items: center;
+            padding: 50px 0px;
+            .title-banner{
+                width: 80%;
+                text-align: center;
+                
+            }
+            .introduce-animation{
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+                .text-animation{
+                    white-space: nowrap;
+                    word-wrap: normal;
+                }
+            }
+        }
+        .avatar-banner{
+            display: none;
+        }
+        .award{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .award-block{
+            
+          width: 100%;
+        }
+    }
+}

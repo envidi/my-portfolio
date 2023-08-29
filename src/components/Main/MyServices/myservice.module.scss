@@ -48,3 +48,13 @@
         }
     }
 }
+@media screen and (max-width:600px){
+    .my-services{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 0%;
+        .myservices-block{
+            width: 100%;
+        }
+    }
+}
