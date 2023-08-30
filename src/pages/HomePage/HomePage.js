@@ -42,7 +42,7 @@ const HomePage = ()=>{
         buttonNavbar.addEventListener("click",()=>{
             const navbar = document.querySelector(`.${cs('navbar-menu')}`);
             const naviPosition = document.querySelector(`.${cs('navi-position')}`)
-            
+            console.log(1)
 
             isClick = !isClick;
             if(isClick){

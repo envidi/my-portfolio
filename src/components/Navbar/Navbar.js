@@ -22,10 +22,11 @@ const classes = cx('block-language')
 
 
         const expandLis = document.querySelectorAll(`.${cx('expand-li')}`);
+        
         expandLis.forEach((expandLi,index)=>{
             expandLi.addEventListener("click",()=>{
                 const expandLiUl = document.querySelectorAll(`.${cx('expand-li-ul')}`);
-                expandLi.style.height = `${expandLi.clientHeight === 30 ?  expandLiUl[index].offsetHeight + 30 :30}px`;
+                expandLi.style.height = `${expandLi.clientHeight === 30 ?  expandLiUl[1].offsetHeight + 30 :30}px`;
                
             })
         
