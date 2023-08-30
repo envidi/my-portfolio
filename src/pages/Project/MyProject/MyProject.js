@@ -90,7 +90,7 @@ const MyProject =(column)=>{
                   
                 </div>  
                 
-                <div class=${cs(`my-project-${column.data.id}`)} >
+                <div class=${cs(`my-project-${column.data.id || 2}`)} >
                 
 
                 ${data.map((pro)=>{

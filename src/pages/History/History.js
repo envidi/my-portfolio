@@ -137,19 +137,21 @@ function HistoryPage() {
         </div>
     </div>
              
-        <div class=${cx('award')}>
-        ${awards.map((award)=>{
-            const { name , number} = award
-            return ` <div class=${cx('award-block')}>
-            <span class=${cx('number-award')}>
-                ${number}
-            </span>
-            <span class=${cx('name-award')}>
-                ${name}
-            </span>
-        </div>`
-        }).join("")}
-                
+        <div class=${cs('contain-award')}>
+            <div class=${cx('award')}>
+            ${awards.map((award)=>{
+                const { name , number} = award
+                return ` <div class=${cx('award-block')}>
+                <span class=${cx('number-award')}>
+                    ${number}
+                </span>
+                <span class=${cx('name-award')}>
+                    ${name}
+                </span>
+            </div>`
+            }).join("")}
+                    
+            </div>
         </div>
         <footer class=${cx('footer')}>
             <span class=${cx('footer-block')}>© 2020 Envidi</span>

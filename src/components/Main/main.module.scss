@@ -111,6 +111,7 @@
     background-color: #2c2c37;
     padding: 15px 25px;
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
     
@@ -121,7 +122,86 @@
     color: var( --gray-color);
 }
 
-@media screen and (max-width: 600px){
+
+
+@media screen and (max-width: 1150px){
+    .main{
+        width: 64%;
+        padding: 30px 20px;
+        
+        .banner{
+            
+            padding: 50px 20px;
+            .title-banner{
+                width: 80%;
+                
+                
+            }
+            .introduce-animation{
+                width: 100%;                
+                flex-wrap: wrap;
+                .text-animation{
+                    white-space: nowrap;
+                    word-wrap: normal;
+                }
+            }
+        }
+        .avatar-banner{           
+            right: 0px;           
+            img{
+                width: 320px;
+            }
+        }
+        
+        .award{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .award-block{
+            
+          width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .main{
+        width: 100%;
+        padding: 30px 20px;
+        
+        .banner{
+            align-items: center;
+            padding: 50px 20px;
+            .title-banner{
+                width: 80%;
+                text-align: center;
+                
+            }
+            .introduce-animation{
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+                .text-animation{
+                    white-space: nowrap;
+                    word-wrap: normal;
+                }
+            }
+        }
+        .avatar-banner{
+            display: none;
+        }
+        .award{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .award-block{
+            
+          width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
     .main{
         width: 100%;
         padding: 30px 10px;
@@ -150,8 +230,7 @@
             display: grid;
             grid-template-columns: repeat(2,1fr);
         }
-        .award-block{
-            
+        .award-block{            
           width: 100%;
         }
     }

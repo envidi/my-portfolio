@@ -10,8 +10,8 @@
     margin-top: 12px;
     width: 100%;
     display: flex;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
 }
 .contain-main-nav{
     display: flex;
@@ -23,9 +23,14 @@
     transform: translateX(10%);
     transition: all .5s ease-in-out;
 }
+@media screen and (max-width : 1150px){
+    .contain-main-nav{
+        transform: translateX(28%);
+    }
+}
 
 
-@media screen and (max-width : 600px){
+@media screen and (max-width : 1030px){
     .contain-main-nav{
         transform: translateX(0);
     }

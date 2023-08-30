@@ -158,3 +158,38 @@
         }
     }
 }
+.contain-award{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width : 760px) {
+ .row{
+    flex-direction: column;
+    align-items: center;
+    .column{
+        width: 90%;
+        margin-bottom: 10px;
+        h3{
+            display: flex;
+            justify-content: center;
+            
+        }
+    }
+ }   
+}
+@media screen and (max-width : 550px) {
+    .row{
+       flex-direction: column;
+       align-items: center;
+       .column{
+           width: 100%;
+           margin-bottom: 10px;
+           h3{
+               display: flex;
+               justify-content: center;
+               
+           }
+       }
+    }   
+   }

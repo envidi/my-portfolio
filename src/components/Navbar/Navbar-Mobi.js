@@ -51,7 +51,7 @@ const classes = cx('block-language')
                         <div><a>portfolio</a><i class="fa-solid fa-chevron-down"></i></div>
                         <ul class=${cx('expand-li-ul')}>
                             <li><a href="/project/2">2 column</a></li>
-                            <li><a href="/project/3">3 column</a></li>
+                            <li><a href="/project/1">1 column</a></li>
                             <li><a>2 column masonory</a></li>
                         </ul>
                     </li>

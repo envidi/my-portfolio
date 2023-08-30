@@ -190,3 +190,35 @@
         margin-top: 1rem;
     }
 }
+
+
+@media screen and (max-width: 950px){
+    .projectDetail-title{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        .projectDetail-title_title{
+            font-size: 2.5rem;
+        }
+    }
+    .projectDetail-detail{
+        justify-content: center;
+    }
+    .projectDetail-wrapper-detail{
+        flex-direction: column;
+        gap: 20px;
+        .projectDetail-detail_description{
+            width: 100%;
+        }
+        .projectDetail-detail_info{
+            width: 100%;
+        }
+    }
+    .projectDetail-result{
+        gap: 25px;
+        flex-direction: column;
+        div{
+            width: 100%;
+        }
+    }
+}

@@ -87,3 +87,37 @@
         margin-top: 2rem;
     }
 }
+
+
+@media screen and (max-width : 1150px){
+    .contain-info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        .info{
+            width: 100%;
+
+        }
+    }
+   
+}
+
+@media screen and (max-width : 770px){
+    .contain-info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        .info{
+            width: 100%;
+
+        }
+    }
+    .title-contact{
+        display: flex;
+        justify-content: center;
+    }
+    .get-contact{
+        display: flex;
+        justify-content: center;
+    }
+}

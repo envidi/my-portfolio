@@ -10,6 +10,17 @@
         display: flex;
         align-items: center;
         padding: 0.5rem 2rem 0rem;
+        z-index: 1000;
+        transform: translateX(0%);
+        transition: all 0.4s ease-in-out;
+        &:hover{
+          cursor: pointer;
+        }
+    }
+
+    .active-icon-sidebar{
+        transform: translateX(520%);
+        transition: all 0.4s ease-in-out;
     }
     
 
@@ -21,7 +32,7 @@
     opacity: 1;
 }
 
-@media screen and (min-width: 868px) {
+@media screen and (min-width: 1030px) {
   .navDiv{
     height: 30px;
     .icon-sidebar{
