@@ -277,7 +277,7 @@ const myProject =[
       "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1692679253/Screenshot_262_x3szn2.png"
     ],
     "source": "https://github.com/Namvv6523/Teaplus.git",
-    "link": "http://envidi2003.infinityfreeapp.com/",
+    "link": "http://drinking-envidi.infinityfreeapp.com/index.php",
     "id": 6
   },
    {
