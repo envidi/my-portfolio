@@ -2,13 +2,15 @@ import classNames from "classnames/bind";
 import styles from "./main.module.scss";
 import { useEffect,award as awards, myServices } from "../../utilities";
 import Myservices from "./MyServices";
+import ButtonDowload from "../Sidebar/MySkill/ButtonDowload";
 
 const cx = classNames.bind(styles);
 
 const Main =()=>{
 
     useEffect(()=>{
-        
+        const main = document.querySelector(`.${cx('main')}`)
+     
         const arrText = [ "web interfaces.", "ios and android applications.", "design mocups.", "automation tools." ]
         const textAnimation = document.querySelector(`.${cx('text-animation')}`);
         const splitWord = (word) =>{
@@ -100,6 +102,7 @@ const Main =()=>{
                 <span class=${cx('footer-block')}>© 2020 Artur Carter</span>
                 <span class=${cx('footer-block')}>Template author:  Nazar Miller</span>
             </footer>
+            ${ButtonDowload()}
                 
                 
 

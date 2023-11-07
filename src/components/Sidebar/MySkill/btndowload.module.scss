@@ -1,0 +1,14 @@
+.contain-cv{
+    padding: 20px 0;
+}
+.cv{
+    color: var( --gray-color);
+    font-weight: 700;
+    transition: all 0.3s ease-in;
+    font-size: 1.3rem;
+    &:hover{
+        color:white;
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+    }
+}

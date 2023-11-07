@@ -1,12 +1,16 @@
 import classNames from "classnames/bind";
 import styles from "./MySkill.module.scss";
 import { useEffect,useState,myLanguage,myTechnology,anotherSkill } from "../../../utilities/index.js";
-
+import ButtonDowload from "./ButtonDowload.js";
 
 const cx = classNames.bind(styles);
 
 const MySkill = () => {
+    
+  
     useEffect(()=>{
+       
+     
         const desc = document.querySelectorAll(`.${cx('desc')}`);
         const technologys = document.querySelectorAll(`.${cx('technology')}`)
         let isClick = false;
@@ -23,7 +27,15 @@ const MySkill = () => {
               
             })
         })
+
+      
+           
+
+
     })
+
+   
+    
     
     
     return `<div class=${cx('my-skill')}>
@@ -84,12 +96,7 @@ const MySkill = () => {
                     
                     </ul>
             </div>
-            <div class=${cx('contain-cv')}>
-                <div class=${cx('cv')}>
-                    DOWNLOAD CV <i class="fa-solid fa-download"></i>
-                </div>
-                        
-            </div>
+             
         
     </div>`
 }

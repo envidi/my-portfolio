@@ -108,7 +108,7 @@ router.on("/*", () => {}, {
   },
 });
 
-const myLanguage = ["Vietnamese", "English"];
+const myLanguage = ["English"];
 const myTechnology = [
   {
     name: "HTML , CSS",
