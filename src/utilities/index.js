@@ -168,24 +168,9 @@ const myServices = [
 
   },
   {
-    name: "UI/UX Design",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
-    
-  },
-  {
-    name: "Sound Design",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
-    
-  },
-  {
-    name: "Game Design",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
-    
-  },
-  {
-    name: "Advertising",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
-    
+    name: "Design UI/UX",
+    desc: "Có thể thiết kế giao diện trên photoshop hoặc figma",
+
   },
 ];
 
