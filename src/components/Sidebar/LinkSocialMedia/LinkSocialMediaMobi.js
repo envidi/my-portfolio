@@ -1,19 +1,16 @@
 import classNames from "classnames/bind";
-import styles from "./LinkSocialMedia.module.scss";
+import styles from "./LinkSocialMediaMobi.module.scss";
 import { useEffect } from "../../../utilities";
 
 const cx = classNames.bind(styles);
 
-const LinkSocialMedia = ()=>{
+const LinkSocialMediaMobi = ()=>{
     useEffect(()=>{
         document.querySelectorAll(`.${cx('icon-social-media')}`)[0].addEventListener('click',(e)=>{
             window.location.href="https://www.facebook.com/longthien.thanthien/?locale=vi_VN"
         })
-        document.querySelectorAll(`.${cx('icon-social-media')}`)[1].addEventListener('click',(e)=>{
-            window.location.href="https://github.com/envidi"
-        })
     })
-    return `<div class=${cx('social-media')}>
+    return `<div class=${cx('social-media-mobi')}>
         <div class=${cx('icon-social-media')}><i class="fa-brands fa-facebook"></i></div>
         <div class=${cx('icon-social-media')}><i class="fa-brands fa-github"></i></div>
         <div class=${cx('icon-social-media')}><i class="fa-brands fa-instagram"></i></div>
@@ -22,4 +19,4 @@ const LinkSocialMedia = ()=>{
     </div>
     `
 }
-export default LinkSocialMedia
+export default LinkSocialMediaMobi

@@ -10,9 +10,9 @@ import skill from "./MySkill/MySkill.module.scss";
 const cx = classNames.bind(styles);
 const cs = classNames.bind(skill);
 const Sidebar = ()=>{
-   useEffect(()=>{
-      
-   })
+  useEffect(()=>{
+    
+  })
     return `
     <div class=${cx('wrapper')}>
         <div class=${cx('sidebar')}>

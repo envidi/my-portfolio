@@ -122,6 +122,14 @@ const myTechnology = [
     name: "PHP",
     desc: "Hiểu và có thể sử dụng cơ bản các kiến thức liên quan đến array method , string method , operator , sql database , display data ",
   },
+  {
+    name: "Reactjs",
+    desc: "Hiểu và có thể sử dụng cơ bản các kiến thức Reactjs như useContext,useReducer,... ",
+  },
+  {
+    name: "AngularJs",
+    desc: "Hiểu và có thể sử dụng cơ bản các kiến thức AngularJs như Services, Observerble,pipe,... ",
+  },
 ];
 
 const anotherSkill = [
@@ -137,7 +145,7 @@ const anotherSkill = [
 ];
 const award = [
   {
-    name: "Years Experience",
+    name: "Năm kinh nghiệm",
     number: "1+",
   },
   {
@@ -145,11 +153,11 @@ const award = [
     number: "30+",
   },
   {
-    name: "Happy Customers",
-    number: "5+",
+    name: "Khách hàng",
+    number: "2+",
   },
   {
-    name: "Honors and Awards",
+    name: "Giải thưởng",
     number: "1+",
   },
 ];
@@ -323,70 +331,68 @@ const historyData = {
   education : [
     {
       id : 1,
-      name :"University of Toronto",
-      sub : "Student",
-      time : "jan 2018 - may 2020",
-      desc : "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri",
-      detail : "DIPLOME"
+      name :"Cao đẳng FPT ",
+      sub : "Sinh viên",
+      time : "jan 2022 - may 2024",
+      desc : "Đang học tại chuyên ngành Web Front-end ",
+      detail : "Xem chi tiết"
     },
     {
       id : 2,
-      name : "Programming Course",
-      sub : "Student",
-      time : "jan 2016- apr 2017",
-      desc : "Coursework - Git, WordPress, Javascript, iOS, Android.",
+      name : "Khóa học lập trình",
+      sub : "Sinh viên",
+      time : "jan 2023- oct 2023",
+      desc : "Có kiến thức căn bản và làm việc với git , javascript căn bản và nâng cao, Reactjs cơ bản, Java cơ bản và C++ cơ bản",
       detail : null
     },
     {
       id : 3,
-      name : "Web developer courses",
-      sub : "Student",
-      time : "aug 2014 - oct 2015",
-      desc : "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript",
-      detail : "LICENCE"
+      name : "Khóa học lập trình web",
+      sub : "Sinh viên",
+      time : "jan 2023 - oct 2023",
+      desc : "Có thể chuyển đổi file photoshop sang html css, javascript",
     },
     {
       id : 4,
-      name : "Academy of Art University",
-      sub : "Student",
-      time : "jan 2018 - may 2020",
-      desc : "Ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.",
-      detail : "CERTIFICATE"
+      name : "Khóa học về photoshop",
+      sub : "Sinh viên",
+      time : "jan 2022 - may 2022",
+      desc : "Có kiến thức cơ bản về UI/UX, photoshop căn bản",
     },
   ],
   work_history : [
     {
       id : 1,
-      name :"Envato",
-      sub : "Template Author",
-      time : "jan 2018 - may 2020",
-      desc : "Created Professional WordPress Themes & Templates for Personal and Creative Websites.",
-      detail : null
+      name :"Dự án 1",
+      sub : "Member",
+      time : "nov 2022 - dec 2022",
+      desc : "Website bán trà sữa sử dụng PHP và sql , làm việc với git",
+      detail : "Chi tiết trong CV"
     },
     {
       id : 2,
-      name : "ABC Studio",
+      name : "Dự án mẫu",
       sub : "Front-End Developer",
-      time : "apr 2018 - aug 2019",
-      desc : "Collaborate with creative and development teams on the execution of ideas.",
-      detail : "RECOMMENDATION"
+      time : "sep 2022 - oct 2022",
+      desc : "Sử dụng PHP và SQL để làm trang web bán hàng gia dụng",
+      detail : "Chi tiết trong CV"
     },
-    {
-      id : 3,
-      name : "Digital Web Studio",
-      sub : "Senior Developer",
-      time : "aug 2014 - oct 2015",
-      desc : "Optimize your website and apps performance using latest technology.",
-      detail : "RECOMMENDATION"
-    },
-    {
-      id : 4,
-      name : "SoftService company",
-      sub : "UI Developer",
-      time : "dec 2015 - jan 2016",
-      desc : "Collaborate with creative and development teams on the execution of ideas.",
-      detail : null
-    },
+    // {
+    //   id : 3,
+    //   name : "Digital Web Studio",
+    //   sub : "Senior Developer",
+    //   time : "aug 2014 - oct 2015",
+    //   desc : "Optimize your website and apps performance using latest technology.",
+    //   detail : "RECOMMENDATION"
+    // },
+    // {
+    //   id : 4,
+    //   name : "SoftService company",
+    //   sub : "UI Developer",
+    //   time : "dec 2015 - jan 2016",
+    //   desc : "Collaborate with creative and development teams on the execution of ideas.",
+    //   detail : null
+    // },
   ]
 }
 

@@ -1,16 +1,17 @@
 import classNames from "classnames/bind";
-import styles from "./MySkill.module.scss";
+import styles from "./MySkillMobi.module.scss";
 import { useEffect,useState,myLanguage,myTechnology,anotherSkill } from "../../../utilities/index.js";
 
 
 const cx = classNames.bind(styles);
 
-const MySkill = () => {
+const MySkillMobi = () => {
     
   
     useEffect(()=>{
+      
        
-        
+     
         const desc = document.querySelectorAll(`.${cx('desc')}`);
         const technologys = document.querySelectorAll(`.${cx('technology')}`)
         let isClick = false;
@@ -38,7 +39,7 @@ const MySkill = () => {
     
     
     
-    return `<div class=${cx('my-skill')}>
+    return `<div class=${cx('my-skill-mobi')}>
                 <div class=${cx('my-address')}>
                     <ul>
                         <li><span>Residence:</span><span class=${cx('my-address-block')}>VietNam</span></li>
@@ -100,4 +101,4 @@ const MySkill = () => {
         
     </div>`
 }
-export default MySkill;
+export default MySkillMobi;
