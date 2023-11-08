@@ -164,7 +164,7 @@ const award = [
 const myServices = [
   {
     name: "Web Development",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+    desc: "Chuyển đổi file giao diện photoshop sang HTML,CSS and JavaScript,Reactjs",
 
   },
   {
@@ -192,7 +192,7 @@ const myServices = [
 const myProject =[
   {
     "name": "Comfy store",
-    "desc": "COMFY Introduces New Store Format and Transforms them into Art Galleries",
+    "desc": "Sử dụng vanillaJs , HTML,CSS , và các thư viện để làm hiệu ứng animation",
     "startDate": "07/05/2023",
     "time": "4days",
     "skills": "HTML,CSS,JS",
@@ -208,7 +208,7 @@ const myProject =[
   },
   {
     "name": "Lamboghini Web",
-    "desc": "Your doorway to unparalleled supercars, embodying luxury, innovation, and speed in one iconic brand.",
+    "desc": "Trang web lấy ý tưởng từ site Lamboghini , dùng Vanilla Javascript để tạo hiệu ứng animation !",
     "startDate": "01/04/2022",
     "time": "1months",
     "skills": "HTML,CSS,JS",
@@ -224,7 +224,7 @@ const myProject =[
   },
   {
     "name": "The Bands",
-    "desc": "Your magical music world, where awesome bands from all over the world play their coolest tunes just for you! 🎶🎤",
+    "desc": "Sử dụng HTML , CSS để xây dựng gồm kiến thức cơ bản của Html,Css và Responsive! 🎶🎤",
     "startDate": "22/08/2021",
     "time": "1week",
     "skills": "HTML,CSS,JS",
@@ -240,7 +240,7 @@ const myProject =[
   },
   {
     "name": "Cocktail Web",
-    "desc": "Welcome to CocktailWeb, your go-to destination for all things cocktail-related. Discover an array of curated recipes.",
+    "desc": "CocktailWeb, dùng Vanilla Js để tạo các chức năng như tìm kiếm và xem chi tiết từng cocktail",
     "startDate": "15/10/2022",
     "time": "3 days",
     "skills": "HTML,CSS,JS",
@@ -256,7 +256,7 @@ const myProject =[
   },  
   {
     "name": "Digital-O-Clock",
-    "desc": " Your digital buddy that shows the time in numbers, just like magic! 🕒✨.",
+    "desc": "Sử dụng HTML , CSS để tạo giao diện , dùng Vanilla JS đê viết logic cho Clock , thay đổi sáng và đêm theo thời gian 🕒✨.",
     "startDate": "5/9/2021",
     "time": "2 days",
     "skills": "HTML,CSS,JS",
@@ -272,7 +272,7 @@ const myProject =[
   },
   {
     "name": "Tea plus Web",
-    "desc": "Website selling products related to drinks such as milk tea and sugary drinks, using MVC model to design.",
+    "desc": "Sử dụng PHP core để viết chức năng cho web như đặt hàng, thêm sửa xóa sản phẩm ",
     "startDate": "10/3/2023",
     "time": "1 month",
     "skills": "HTML,CSS,JS,PHP",
@@ -290,7 +290,7 @@ const myProject =[
   },
    {
     "name": "Travel Web",
-    "desc": "With HD video about travel to the beach and around the world.",
+    "desc": "Sử dụng HTML,CSS và Reactjs để hoàn thiện sản phẩm .Sử dụng thư viện animation để tạo effect.",
     "startDate": "27/8/2023",
     "time": "2 days",
     "skills": "HTML,CSS,React,Responsive",
@@ -304,7 +304,24 @@ const myProject =[
     "source": "https://github.com/envidi/Travel-Web.git",
     "link": "https://travel-web-lime.vercel.app/",
     "id": 7
-  }
+  },
+  {
+   "name": "Quiz App",
+   "desc": "Quiz App gồm các câu hỏi liên quan đến kiến thức cơ bản của React",
+   "startDate": "12/10/2023",
+   "time": "2 days",
+   "skills": "HTML,CSS,React",
+   "role": "FE ",
+   "image": [
+     "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1699440353/Screenshot_15_oojtzb.png",
+     "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1699440352/Screenshot_16_mykclk.png",
+     "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1699440352/Screenshot_13_odyzy1.png",
+  
+   ],
+   "source": "https://github.com/envidi/Quiz-app.git",
+   "link": "https://quiz-app-silk-xi.vercel.app/",
+   "id": 8
+ }
 ]
 
 const uploadFileCloudinary =async (files)=>{

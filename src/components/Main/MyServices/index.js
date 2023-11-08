@@ -4,7 +4,7 @@ import { useEffect, myServices } from "../../../utilities";
 const cx = classNames.bind(styles);
 const Myservices = ()=>{
     return `
-    <h3>My Services</h3>
+    <h3>Dịch vụ của tôi</h3>
     
     <div class=${cx('my-services')}>
 
