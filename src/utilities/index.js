@@ -306,7 +306,24 @@ const myProject =[
    "source": "https://github.com/envidi/Quiz-app.git",
    "link": "https://quiz-app-silk-xi.vercel.app/",
    "id": 8
- }
+ },
+ {
+  "name": "Quiz App Practice",
+  "desc": "Quiz App gồm các câu hỏi liên quan đến kiến thức cơ bản của React bằng tiếng anh ",
+  "startDate": "12/11/2023",
+  "time": "2 days",
+  "skills": "HTML,CSS,React",
+  "role": "FE ",
+  "image": [
+    "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1699806197/Screenshot_20_rioefp.png",
+    "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1699806197/Screenshot_19_wwv1ag.png",
+    "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1699806197/Screenshot_18_lz5ppq.png",
+ 
+  ],
+  "source": "https://github.com/envidi/Quiz_Practice",
+  "link": "https://quiz-practice-coral.vercel.app/",
+  "id": 9
+}
 ]
 
 const uploadFileCloudinary =async (files)=>{
