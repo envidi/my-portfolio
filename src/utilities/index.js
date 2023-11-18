@@ -323,6 +323,23 @@ const myProject =[
   "source": "https://github.com/envidi/Quiz_Practice",
   "link": "https://quiz-practice-coral.vercel.app/",
   "id": 9
+},
+{
+  "name": "Simple Order App",
+  "desc": "App gọi đồ ăn nhanh với những chức năng như đơn hàng và thay đổi số lượng",
+  "startDate": "13/11/2023",
+  "time": "2 days",
+  "skills": "HTML,CSS,React",
+  "role": "FE ",
+  "image": [
+    "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1700298640/Screenshot_27_nc32j8.png",
+    "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1700298640/Screenshot_26_xgbirg.png",
+    "https://res.cloudinary.com/dsmy4ogdj/image/upload/v1700298640/Screenshot_25_bvf0wh.png",
+ 
+  ],
+  "source": "https://github.com/envidi/Simple_Order_Food",
+  "link": "https://simple-order-food.vercel.app/",
+  "id": 10
 }
 ]
 
